@@ -20,14 +20,26 @@ void mahasiswa::setID() {
 }
 
 void mahasiswa::printAll() {
-    cout << "ID = " << id << endl;
+    cout << "ID = " << id << endl; 
     cout << "Nama = " << nama << endl;
     cout << endl;  
 }
 
 int main()
 {
-    std::cout << "Hello World!\n";  
+    mahasiswa mhs1("Lia Kurnia");
+    mahasiswa mhs2("Asroni");
+    mhs2.nim = 10;
+    mahasiswa mhs3("Andi Kurniawan");
+    mhs3.nim = 20;
+    mahasiswa mhs4("Joko Purbo");
+
+    mhs1.printAll();
+    mhs2.printAll();
+    mhs3.printAll();
+    mhs4.printAll();
+    return 0;
+
 }
 
 
