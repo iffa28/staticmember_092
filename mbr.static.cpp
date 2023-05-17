@@ -2,11 +2,11 @@
 #include <string>
 using namespace std;
 
-class mahasiswa {
+class mahasiswa { 
 public:
     static int nim;
     int id;
-    string nama;
+    string nama; 
 
     void setID();
     void printAll();
@@ -22,7 +22,7 @@ void mahasiswa::setID() {
 void mahasiswa::printAll() {
     cout << "ID = " << id << endl;
     cout << "Nama = " << nama << endl;
-    cout << endl;
+    cout << endl; 
 }
 
 int main()
